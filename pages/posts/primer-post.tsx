@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '../../components/layout';
 
-const PrimerPost: NextPage = () => {
+export default function PrimerPost({ data }) {
     return (
         <Layout home={false}>
             <div className='container'>
@@ -19,5 +19,3 @@ const PrimerPost: NextPage = () => {
         </Layout>
     );
 }
-
-export default PrimerPost;

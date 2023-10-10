@@ -26,6 +26,9 @@ const Layout = ({ children, home }) => {
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
+            <nav>
+                navBar
+            </nav>
             <header className={style.header}>
                 {home ? (
                     <>
