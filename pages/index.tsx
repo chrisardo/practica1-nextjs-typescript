@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Layout from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
 import utilStyles from '../styles/utils.module.css';
+import Image from 'next/image';
 
 
 export default function Home() {
@@ -20,6 +21,12 @@ export default function Home() {
             Ir siguiente pagina: <Link href="/posts/primer-post">this page!</Link>
           </h1>
         </main>
+        <Image
+          src="/img/kotlin.png" // Route of the image file
+          height={344} // Desired size with correct aspect ratio
+          width={344} // Desired size with correct aspect ratio
+          alt="Your Name"
+        />
       </div>
     </Layout>
   );
