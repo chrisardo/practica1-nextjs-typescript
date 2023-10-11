@@ -14,7 +14,7 @@ export default function Home({ data }) {
     <Layout home >
       <div className='container'>
         <Head>
-          <title>NextJS</title>
+          <title>NextJS: Consumiendo Api</title>
           <Link rel='icon' href='/favicon.ico' />
         </Head>
         <main>

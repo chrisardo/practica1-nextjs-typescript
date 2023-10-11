@@ -4,9 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 
-const name = 'Next.js';
+const name = 'Next.js: Consumiendo api';
 export const siteTitle = 'Next.js Sample Website';
-
 
 const Layout = ({ children, home }) => {
     return (
